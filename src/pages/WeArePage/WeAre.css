@@ -1,0 +1,45 @@
+.about-inner {
+    padding: 90px 0;
+}
+/* @media (max-width: 992px) {
+    .text-about {
+        margin-bottom: 50px;
+    }
+} */
+
+.text-about h3 {
+    margin: 0;
+    font-size: 32px;
+    color: #f8a51b;
+    margin-bottom: 22px;
+    font-weight: 500;
+}
+.text-about .info {
+    color: #101010;
+    line-height: 1.75;
+    margin: 22px 0;
+}
+.text-about .bio {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.text-about .bio ul {
+    padding: 0;
+    line-height: 1.75;
+}
+/* .img-about {
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: -7px 7px 20px rgba(243, 231, 25, 0.2);
+} */
+.video-content {
+    overflow: hidden;
+}
+@media (max-width: 992px) {
+    .video-content {
+        margin-top: 20px;
+    }
+}
+.about-inner video {
+    height: 600px;
+}
